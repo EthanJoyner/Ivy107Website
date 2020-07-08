@@ -1,6 +1,6 @@
-# baltimorebolts.github.io
+# EthanJoyner.github.io
 Jekyll + Sass + Boostrap Based Website
-[Link to Site](http://baltimorebolts.github.io)
+[Link to Site](http://EthanJoyner.github.io)
 
 ### Dev Environment
 - linux!!!
@@ -31,4 +31,4 @@ Jekyll + Sass + Boostrap Based Website
 - https://templated.co/
 - Design notes can be found in DesignNotes.md
 
-Player 2 has joined the match
+##### Thank you Tyler Lee for helping me set up the files architecture.

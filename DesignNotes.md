@@ -11,12 +11,12 @@ Ideas as of (7/1/20)
     - div,id: header
         - Epic landing page, but we dont have images high rez enough to look good there, maybe a montage video instead or a smaller frame, similar to the one in Polychromasia
     - div,id: two 
-        - Great place to put a sigle line qoute the team likes to go by or maybe start a highlight section for a highlight section for the robots.  
+        - Great place to put a sigle line qoute the team likes to go by or maybe start a highlight section for a highlight section.  
 
 - EarthyBlue (https://templated.co/earthyblue)
     - div,id: header-wrapper/ header/logo/menu
         - Simple And leaves a lot of open space for that modern look
-        - Its centered and would look good with a wide spread Baltimore Bolts logo on top
+        - Its centered and would look good with a wide spread logo on top
 
 - Crosswalk (https://templated.co/crosswalk)
     - div,id: featured
