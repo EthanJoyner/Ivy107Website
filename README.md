@@ -27,7 +27,7 @@ Jekyll + Sass + Boostrap Based Website
     - or use vscode integrated git
 
 ### Design ideas
-- https://html5up.net/massively
+- https://html5up.net
 - https://templated.co/
 - Design notes can be found in DesignNotes.md
 
