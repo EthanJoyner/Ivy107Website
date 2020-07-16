@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% include header.html %}
+{% include fullHielo.html %}
 
-{% include nav.html %}
-{% include banner.html %}
 
