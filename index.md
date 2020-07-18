@@ -2,6 +2,6 @@
 layout: default
 ---
 
-{% include fullHielo.html %}
+{% include head.html %}
 
 
