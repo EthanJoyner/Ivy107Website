@@ -1,31 +1,24 @@
-body { 
-    margin: 0;
-    font-family: sans-serif;
-    font-weight: 300;
-}
 
 .navBarContainer {
-    margin: 0 auto;
-}
-
-#navBarMenu{
-    background: #191919
     text-align: center;
+    margin: 0;
+    background: #191919
 }
 
-#navBarMenu ul
+
+.navBarContainer ul
 {
     display: inline-block;
     padding: 0em 2em;
     text-align: center;
 }
 
-#navBarMenu li
+.navBarContainer li
 {
     display: inline-block;
 }
 
-#navBarMenu li a, #navBarMenu li span
+.navBarContainer li a, .navBarContainer li span
 {
     display: inline-block;
     padding: 1.3em 1.5em;
@@ -37,12 +30,12 @@ body {
     color: #f2f2f2;
 }
 
-#navBarMenu li:hover a, #navBarMenu li.active a, #navBarMenu li.active span
+.navBarContainer li:hover a, .navBarContainer li.active a, .navBarContainer li.active span
 {
     background: #d3d3ab;
 }
 
-#navBarMenu .current_page_item a
+.navBarContainer .current_page_item a
 {
     color: #d3d3ab;
 }
