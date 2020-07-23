@@ -2177,15 +2177,20 @@ input, select, textarea {
 		}
 
 /* Header */
+.tintingOverlay {
+	background-color: rgba(23, 34, 189, 0.822); /* Black background with opacity */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
 
 	#header {
 		position: relative;
 		margin: 0;
+		background-image: url(/assets/img/ivygarden.jpeg);
 		background-color: #D3D3AB;
-		background-size: auto, cover;
+		background-size: cover;
 		background-position: top left, center center;
-		background-repeat: repeat, no-repeat;
-		padding: 14em 0 14em 0;
+		background-repeat: no-repeat;
+		padding: 10em 0 10em 0;
 		text-align: center;
 		color: #fff;
 	}
