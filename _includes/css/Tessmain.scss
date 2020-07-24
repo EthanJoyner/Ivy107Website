@@ -2185,12 +2185,12 @@ input, select, textarea {
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url(/assets/img/ivygardentinted.png);
+		background-image: url(/assets/img/tintedGarden.jpg);
 		background-color: #D3D3AB;
 		background-size: cover;
 		background-position: top left, center center;
 		background-repeat: no-repeat;
-		padding: 10em 0 10em 0;
+		padding: 14em 0 14em 0;
 		text-align: center;
 		color: #fff;
 	}
@@ -2253,15 +2253,15 @@ input, select, textarea {
 			}
 
 			.main > .content.style1 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+				background: url("") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #D3D3AB, #213d20, #191919);// gradient 
 			}
 
 			.main > .content.style2 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(72deg, #191919, #213d20, #d3d3ab);
 			}
 
 			.main > .content.style3 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #191919, #191919, #213d20);
 			}
 
 			.main > .content.style4 {
