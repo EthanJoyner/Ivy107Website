@@ -37,12 +37,6 @@
     text-decoration: none;
 }
 
-.hellaFooter li:hover a, .hellaFooter li.active a, .hellaFooter li.active span
-{
-    background: #d3d3ab;
-    color: #191919;
-    text-decoration: none;
-}
 
 .hellaFooter .current_page_item a
 {
@@ -53,4 +47,9 @@
 
 #hellaFooter img{
 margin-top: 10px;
+}
+
+.footerMarginNo{
+    padding: 0em, 0em;
+    margin: 0px, 0px;
 }
