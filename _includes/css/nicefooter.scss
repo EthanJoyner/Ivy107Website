@@ -1,12 +1,55 @@
+
 .hellaFooter {
-    margin-top:10px;    
+    margin:0;    
     text-align: center;
     background: #191919
 }
 
 #hellaFooter{
     overflow: hidden;
+    text-decoration: none;
 }
+
+.hellaFooter ul
+{
+    display: inline-block;
+    padding: 0em 0em;
+    text-align: center;
+    margin-bottom: 0 !important;
+    text-decoration: none;
+}
+
+.hellaFooter li
+{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hellaFooter li a, .hellaFooter li span
+{
+    display: inline-block;
+    padding: 1.3em 1.5em;
+    font-size: 0.90em;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: 0;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.hellaFooter li:hover a, .hellaFooter li.active a, .hellaFooter li.active span
+{
+    background: #d3d3ab;
+    color: #191919;
+    text-decoration: none;
+}
+
+.hellaFooter .current_page_item a
+{
+    color: #191919;
+    text-decoration: none;
+}
+
 
 #hellaFooter img{
 margin-top: 10px;
