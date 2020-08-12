@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% include fullRefrence/FullShift.html %}
+{% include projectsPage.html %}
 
 
 
