@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% include landerPage.html %}
+{% include fullRefrence/FullShift.html %}
 
 
 
