@@ -3070,7 +3070,7 @@ input, select, textarea {
 				pointer-events: auto;
 				opacity: 1;
 				visibility: visible;
-				z-index: 11000;
+				z-index: 1;
 			}
 
 				.gallery .modal.visible:before {
@@ -3242,7 +3242,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 50vw;
-			z-index: 8;
+			z-index: -9000;
 		}
 
 		#wrapper section {
@@ -3808,7 +3808,7 @@ input, select, textarea {
 	}
 
 		body.is-preload #wrapper:before {
-			opacity: 0;
+			opacity: 1;
 		}
 
 	#wrapper > section.intro {
@@ -3848,7 +3848,7 @@ input, select, textarea {
 
 				body.is-preload #wrapper > section.intro > header > * {
 					transform: translate(-0.5rem);
-					opacity: 0;
+					opacity: 100;
 				}
 
 			body.is-preload #wrapper > section.intro > .content {

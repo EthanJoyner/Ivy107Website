@@ -2179,7 +2179,7 @@ input, select, textarea {
 /* Header */
 .tintingOverlay {
 	background-color: rgba(23, 34, 189, 0.822); /* Black background with opacity */
-	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	z-index: 5; /* Specify a stack order in case you're using a different order for other elements */
 }
 
 	#header {
