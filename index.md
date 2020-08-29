@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% include projectsPage.html %}
+{% include projectA.html %}
 
 
 
