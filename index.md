@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% include projectA.html %}
+{% include landerPage.md %}
 
 
 

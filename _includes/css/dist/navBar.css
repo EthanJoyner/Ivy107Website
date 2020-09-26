@@ -1,0 +1,56 @@
+.navBarContainer {
+  margin: 0;
+  text-align: center;
+  background: #191919;
+}
+
+#navBarContainer {
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.navBarContainer ul {
+  display: inline-block;
+  padding: 0em 0em;
+  text-align: center;
+  margin-bottom: 0 !important;
+  text-decoration: none;
+}
+
+.navBarContainer li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.navBarContainer li a, .navBarContainer li span {
+  display: inline-block;
+  padding: 1.3em 1.5em;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: 0;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.navBarContainer li:hover a, .navBarContainer li.active a, .navBarContainer li.active span {
+  background: #d3d3ab;
+  color: #191919;
+  text-decoration: none;
+}
+
+.navBarContainer .current_page_item a {
+  color: #191919;
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+.iframeHolder {
+  text-align: center;
+}

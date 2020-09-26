@@ -2,11 +2,9 @@
     <div class ="navBarContainer sticky" id ="navBarContainer"> 
         <nav>
             <ul>
-                <li><a href="landerPage.html">Home</a></li>
-                <li><a href="pages/projectsPage.html">Projects</a></li>
-                <li><a href="#">Creative Gallery</a></li>
-                <li><a href="/_includes/aboutPage.html">About Me</a></li>
-                <li><a href="#">Contact</a></li>
+                {% for item in site.data.settings.menu %}
+                <a href="{{ item.link }}"><li>{{ item.name }}</li></a>
+                {% endfor %}
             </ul>
         </nav>
     </div>
