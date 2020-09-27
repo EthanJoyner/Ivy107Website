@@ -3,6 +3,5 @@ description: >-
     My own personal website
 baseurl: ""
 url: ""
-
+include: ['_pages']
 markdown: kramdown
-permalink: pretty

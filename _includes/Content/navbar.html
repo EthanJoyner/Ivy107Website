@@ -1,9 +1,9 @@
 <body>
-    <div class ="navBarContainer sticky" id ="navBarContainer"> 
+    <div class ="navBarContainer sticky unde" id ="navBarContainer"> 
         <nav>
-            <ul>
+            <ul class="unde">
                 {% for item in site.data.settings.menu %}
-                <a href="{{ item.link }}"><li>{{ item.name }}</li></a>
+                <li class="unde"><a href="{{ item.link }}">{{ item.name }}</a></li>
                 {% endfor %}
             </ul>
         </nav>

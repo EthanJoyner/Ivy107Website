@@ -1,6 +1,6 @@
 menu: 
-- {name: Home, link: '/landerPage.md'}
-- {name: Projects, link: '/projectsPage.html'}
+- {name: Home, link: '/'}
+- {name: Projects, link: '/projects/'}
 - {name: Creatie Gallery, link: '#'}
-- {name: About Me, link: '/aboutPage.html'}
+- {name: About Me, link: '/aboutme/'}
 - {name: Contact, link: '#'}
