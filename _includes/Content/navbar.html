@@ -3,7 +3,7 @@
         <nav>
             <ul class="unde">
                 {% for item in site.data.settings.menu %}
-                <li class="unde"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                <li class="unde"><a href="{{ item.link }}" target="{{item.target}}">{{ item.name }}</a></li>
                 {% endfor %}
             </ul>
         </nav>

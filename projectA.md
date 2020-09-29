@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ivy107 | Project A
-permalink: /project-A/
+permalink: /projectACE/
 ---
 <br>
 <div class="iframeHolder">

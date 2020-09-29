@@ -7,7 +7,7 @@ permalink: /projects/
 {% include Content/ivyProjectHeader.html %}
 <br>
 <br>
-{% include eleRef/shift/paraWimgShift.html %}
-{% include eleRef/shift/subSecShift.html %}
+{% include Content/projectACEsum.html %}
+{% include Content/projectsComingsoon.html%}
 {% include eleRef/shift/endShift.html %}
     
