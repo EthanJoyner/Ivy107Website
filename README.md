@@ -1,6 +1,6 @@
 # EthanJoyner.github.io
 Jekyll + Sass + Boostrap Based Website
-[Link to Site](http://EthanJoyner.github.io)
+[Link to Site](https://ivy107.com)
 
 ### Dev Environment
 - linux!!!
