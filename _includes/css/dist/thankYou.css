@@ -1,0 +1,166 @@
+.bodyCenter{
+    text-align: center;
+    background: #191919;
+}
+
+.listOfNames{
+    display: inline-block;
+    padding: 0em 0em;
+    text-align: center;
+    margin-bottom: 0 !important;
+    text-decoration: none;
+    width: 100%;
+    
+}
+
+.namePreset{
+    text-decoration: none;
+    display: block;
+    background: #191919;
+    color: #f2f2f2;
+    padding: 1em;
+  
+    
+}
+
+.typeLegend{
+    color: #f2f2f2;
+ 
+    
+}
+
+.AMT:hover{
+    background: linear-gradient(30deg, #D3D3AB, #213d20, #191919);
+    text-decoration: none;
+    animation: AMTani;
+    animation-duration: .5s;
+    animation-delay: .5;
+}
+@keyframes AMTani{
+    0%{opacity:0; background: #191919;}
+    100%{opacity:1; background: linear-gradient(30deg, #D3D3AB, #213d20, #191919);}
+}
+
+/* ~~~~~~~~~~~~~~~ */
+
+.MT:hover{
+    background: linear-gradient(30deg, #213d20, #191919);
+    text-decoration: none;
+    animation: MTani;
+    animation-duration: .5s;
+    animation-delay: .5;
+}
+@keyframes MTani{
+    0%{opacity:0; background: #191919;}
+    100%{opacity:1; background: linear-gradient(30deg, #213d20, #191919);}
+}
+
+/* ~~~~~~~~~~~~~ */
+
+.AT:hover{
+    background: linear-gradient(30deg, #D3D3AB, #191919);
+    text-decoration: none;
+    animation: ATani;
+    animation-duration: .5s;
+    animation-delay: .5;
+}
+@keyframes ATani{
+    0%{opacity:0; background: #191919;}
+    100%{opacity:1; background: linear-gradient(30deg, #D3D3AB, #191919);}
+}
+
+/* ~~~~~~~~~~~~~ */
+
+.AM:hover{
+    background: linear-gradient(30deg, #D3D3AB, #213d20);
+    text-decoration: none;
+    animation: AMani;
+    animation-duration: .5s;
+    animation-delay: .5;
+}
+@keyframes AMani{
+    0%{opacity:0; background: #191919;}
+    100%{opacity:1; background: linear-gradient(30deg, #D3D3AB, #213d20);}
+}
+
+/* ~~~~~~~~~~~~~ */
+
+.A:hover{
+    background: linear-gradient(30deg, #D3D3AB,#f2f2f2);
+    text-decoration: none;
+    animation: Aani;
+    animation-duration: .5s;
+    animation-delay: .5;
+    color: #191919;
+}
+@keyframes Aani{
+    0%{opacity:0; background: #191919;}
+    100%{opacity:1; background: linear-gradient(30deg, #D3D3AB,#f2f2f2);}
+}
+
+/* ~~~~~~~~~~~~ */
+
+.M:hover{
+    background: linear-gradient(30deg, #213d20, #f2f2f2);
+    text-decoration: none;
+    animation: Mani;
+    animation-duration: .5s;
+    animation-delay: .5;
+    color: #191919;
+}
+@keyframes Mani{
+    0%{opacity:0; background: #191919;}
+    100%{opacity:1; background: linear-gradient(30deg, #213d20, #f2f2f2);}
+}
+
+/* ~~~~~~~~~ */
+
+.T:hover{
+    background: linear-gradient(30deg, #191919, #f2f2f2);
+    text-decoration: none;
+    animation: TMani;
+    animation-duration: 10s;
+    animation-delay: .5;
+    color: #191919;
+}
+@keyframes TMani{
+    0%{opacity:0; background: #191919;}
+    100%{opacity:1; background: linear-gradient(10deg, #191919, #f2f2f2);}
+   
+}
+
+/* ~~~~~~~~~~~~~ */
+
+.FAM:hover{
+    background: linear-gradient(120deg, #D3D3AB, #213d20, #191919);
+    text-decoration: none;
+    animation: FAMani;
+    animation-duration: .5s;
+    animation-delay: .5;
+    animation-fill-mode: forwards;
+}
+@keyframes FAMani{
+    0%{opacity:0; background: #191919;}
+    20%{opacity:1; background: linear-gradient(30deg, #D3D3AB, #213d20, #191919);}
+    40%{opacity:1; background: linear-gradient(45deg, #D3D3AB, #213d20, #191919);}
+    60%{opacity:1; background: linear-gradient(60deg, #D3D3AB, #213d20, #191919);}
+    80%{opacity:1; background: linear-gradient(90deg, #D3D3AB, #213d20, #191919);}
+    100%{opacity:1; background: linear-gradient(120deg, #D3D3AB, #213d20, #191919);}
+}
+
+/* 
+A M T
+M T
+A T 
+A M 
+A
+M 
+T
+*/
+
+/* 
+T grey 191919
+M green 213d20
+A beige d3d3ab
+linear-gradient(45deg, #D3D3AB, #213d20, #191919);
+*/
