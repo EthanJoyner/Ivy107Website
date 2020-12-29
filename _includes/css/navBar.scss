@@ -1,10 +1,4 @@
 
-.navBarContainer {
-    margin:0;    
-    text-align: center;
-    background: #191919;
-    border-bottom: #191919;
-}
 .navBarContainer li a, .navBarContainer li span
 {
     display: inline-block;
@@ -15,13 +9,14 @@
     outline: 0;
     color: #f2f2f2;
     text-decoration: none;
+    min-height: 100px;
     
 }
 
-.navBarContainer li
+.navBarContainer 
 {
     text-decoration: none;
-    display: inline-block;
+    
 }
 
 .menuContainer
@@ -30,10 +25,13 @@
     text-align: center;
     margin-bottom: 0 !important;
     text-decoration: none;
+    width: 100%;
 }
 
 .menuElement{
+    position: relative;
     float: left;
+    width: 100%;
 }
 .menuElement:hover
 {
@@ -42,8 +40,6 @@
     text-decoration: none;
 }
 
-
-
 .sticky {
     position: fixed;
     top: 0;
@@ -51,3 +47,8 @@
     z-index: 4;
   }
 
+
+.navBarDecor{
+    color: #f2f2f2;
+    background-color: #191919;
+}

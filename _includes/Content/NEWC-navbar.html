@@ -1,41 +1,68 @@
-<!DOCTYPE html>
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="navBar.css" type="text/css">
-    <meta charset="UTF-8">
-    <title>My very own nav bar</title>
-</head>
+<!-- 
+<div class = "navBarContainer sticky" id ="navBarMenu">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<body>
-    <div class = "navBarContainer" id ="navBarMenu">
-            <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Top Navigation Menu -->
-    <div class="topnav">
+  <div class="topnav">
     <a href="#home" class="active">Logo</a>
-    <!-- Navigation links (hidden by default) -->
-    <div id="myLinks">
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+    
+    <ul>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+    
+    
+    <div class="menuContainer">
+      {% for item in site.data.settings.menu %}
+        <div class=""><a class ="navBarContainer menuElement" href="{{ item.link }}" target="{{item.target}}">{{ item.name }}</a></div>
+        {% endfor %}
     </div>
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
-    </div>
-    </div>   
-</body>
 
-<script>
-    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
+    
+    
+    
+  <div href="javascript:void(0);" id="dropdownButton" onclick="dropFunc()">
+    <a class="icon" >
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+    
+  </div>
+</div>  -->
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="navbarContainer sticky ">
+  <div class="force-center">
+    <nav class="navbar navbar-expand-lg navBarDecor text-light force-center">
+      <img src="/assets/img/Just-leaf.svg" width="3%" height="auto" alt="">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="icon" >
+          <i class="fa fa-bars"></i>
+        </a>
+      </button>
+    
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto force-center">  
+            {% for item in site.data.settings.menu %}
+              <li class="nav-item active pr-1"><a class ="nav-link text-light text-decoration-none border border-0"  href="{{ item.link }}" target="{{item.target}}">{{ item.name }}</a></li>
+              {% endfor %}
+          </ul>
+        </div>
+      
+      
+
+    </nav>
+  </div>
+</div> 

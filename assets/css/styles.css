@@ -3,6 +3,9 @@
 {% include css/Tessmain.scss %}
 {% include css/Shiftmain.scss %}
 {% include css/navBar.scss %}
+{% include css/NEWC-navBar.scss %}
 {% include css/nicefooter.scss %}
 {% include css/thankYou.scss %}
 {% include css/contact.scss %}
+{% include css/bootstrap.min.scss%}
+{% include css/bootstrap.min.css.map%}
