@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ivy107 | Project ACE
+title: ivy107 | Project WorkStats
 permalink: /projectWorkStats/
 ---
 <br>
