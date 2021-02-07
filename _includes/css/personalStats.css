@@ -1,0 +1,154 @@
+.info{
+  /* text color */
+  color: #fff;
+}
+::selection{
+  color: #fff;
+  background: #191919;
+}
+.skill-bars{
+  position: absolute;
+  padding: 5%;
+  width: 100%;
+  /* Background of Navbar */
+  background: rgba(21, 21, 226, 0);
+  /* box-shadow: 5px 5px 20px rgba(0,0,0,0.2); */
+  border-radius: 10px;
+}
+.skill-bars .bar{
+  margin: 20px 0;
+}
+.skill-bars .bar:first-child{
+  margin-top: 0px;
+}
+.skill-bars .bar .info{
+  margin-bottom: 5px;
+}
+.skill-bars .bar .info span{
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+  100%{
+    opacity: 1;
+  }
+}
+.skill-bars .bar .progress-line{
+  height: 10px;
+  width: 100%;
+  /* Back bar */
+  background: linear-gradient(45deg, #191919,#213d20 );
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  /* box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+              0 1px rgba(255,255,255,0.8); */
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+
+/* Bar color */
+.bar .progress-line span{
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  /* Progress Bar */
+  background: #f2f2f2;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+
+.progress-line span::before{
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  /* Bottom Triangle of text bubble */
+  border-top-color: #f2f2f2;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line span::after{
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  /* Actual text bubble */
+  background: #f2f2f2;
+  /* Text Bubble Text */
+  color: #191919;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+}
+
+/* Toggles */
+
+.bar .progress-line.python span{
+  width: 75%;
+}
+.progress-line.python span::after{
+  content: "75%";
+}
+
+/* 3D-modeling */
+.bar .progress-line.modeling span{
+  width: 70%;
+}
+.progress-line.modeling span::after{
+  content: "70%";
+}
+
+/* html-css-js */
+.bar .progress-line.html-css-js span{
+  width: 50%;
+}
+.progress-line.html-css-js span::after{
+  content: "50%";
+}
+
+/* java */
+.bar .progress-line.java span{
+  width: 60%;
+}
+.progress-line.java span::after{
+  content: "60%";
+}
+
+/* graphic-design */
+.bar .progress-line.graphic-design span{
+  width: 40%;
+}
+.progress-line.graphic-design span::after{
+  content: "40%";
+}
+
+/* excel */
+.bar .progress-line.excel span{
+  width: 80%;
+}
+.progress-line.excel span::after{
+  content: "80%";
+}
+
