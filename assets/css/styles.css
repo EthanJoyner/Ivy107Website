@@ -7,5 +7,6 @@
 {% include css/nicefooter.scss %}
 {% include css/thankYou.scss %}
 {% include css/contact.scss %}
+{% include css/personalStats.scss %}
 {% include css/bootstrap.min.scss%}
 {% include css/bootstrap.min.css.map%}
