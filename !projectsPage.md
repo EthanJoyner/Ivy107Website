@@ -23,7 +23,7 @@ permalink: /projects/
     </header>
     <div class="content">
         <p><strong>GetFoodUSA VRS</strong> is a site I made to assist in mobilizing volunteers for The GetFoodUSA initiative. The video assets included were also edited by me. </p>
-        <a href="/projectACE/"><span class="image main"><img src="/assets/img/GfusatPIC.png" alt="" /></span></a>
+        <a href="https://getfoodusatraining.com/" target="_blank" rel="noopener noreferrer"><span class="image main"><img src="/assets/img/GfusatPIC.png" alt="" /></span></a>
     </div>
 </section> 
 {% include Content/projectsComingsoon.html%}
