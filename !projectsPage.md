@@ -18,14 +18,14 @@ permalink: /projects/
     </div>
 </section>
 <section id="first">
-            <header>
-                <h2 class="theWhiteColor">GetFoodUSA Training Website November 2020</h2>
-            </header>
-            <div class="content">
-                <p><strong>GetFoodUSA Training</strong> is a site I made to assist in mobilizing volunteers for The GetFoodUSA initiative </p>
-                <a href="/projectACE/"><span class="image main"><img src="/assets/img/GfusatPIC.png" alt="" /></span></a>
-            </div>
-        </section> 
+    <header>
+        <h2 class="theWhiteColor">GetFoodUSA Voluenteer Resouce Site November 2020</h2>
+    </header>
+    <div class="content">
+        <p><strong>GetFoodUSA VRS</strong> is a site I made to assist in mobilizing volunteers for The GetFoodUSA initiative. The video assets included were also edited by me. </p>
+        <a href="/projectACE/"><span class="image main"><img src="/assets/img/GfusatPIC.png" alt="" /></span></a>
+    </div>
+</section> 
 {% include Content/projectsComingsoon.html%}
 {% include eleRef/shift/endShift.html %}
     
