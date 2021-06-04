@@ -7,7 +7,6 @@ permalink: /projects/
 {% include Content/ivyProjectHeader.html %}
 <br>
 <br>
-</section>
 <section id="first">
     <header>
         <h2 class="theWhiteColor">GetFoodUSA Voluenteer Resouce Site November 2020</h2>
@@ -25,6 +24,7 @@ permalink: /projects/
         <p><strong>Project WorkStats</strong> Is a spread sheet that uses a lot of aspects of efficient data collection.</p>
         <a href="/projectWorkStats/"><span class="image main"><img src="/assets/img/ProjectWS.png" alt="" /></span></a>
     </div>
+
 {% include Content/projectACEsum.html %}
 {% include Content/projectsComingsoon.html%}
 {% include eleRef/shift/endShift.html %}
