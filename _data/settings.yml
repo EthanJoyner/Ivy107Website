@@ -1,6 +1,6 @@
 menu: 
 - {name: Home, link: '/'}
 - {name: Projects, link: '/projects/'}
-- {name: Creative Gallery, link: 'https://photos.app.goo.gl/vvbsgA5W7BgqTZX49', target: 'https://photos.app.goo.gl/vvbsgA5W7BgqTZX49'}
+- {name: Creative Gallery, link: '/gallery/'}
 - {name: About Me, link: '/aboutme/'}
 - {name: Contact, link: '/contact/'}
